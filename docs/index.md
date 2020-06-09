@@ -1,27 +1,22 @@
-# NERSC Technical Documentation
+# Pi超算集群用户文档
+[docs](http://docs.hpc.sjtu.edu.cn/)是上海交通大学Pi2.0超级计算集群用户文档，为用户提供快速上手指导和问题解答。如果想获取更多hpc团队的动态和信息，请访问[hpc](https://hpc.sjtu.edu.cn/)。   
+  **友情提醒:** 超算平台禁止运行军工项目等涉密计算任务。
 
-docs.nersc.gov is a resource with the technical details for users to
-make effective use of [NERSC](https://nersc.gov)'s resources. For
-center news and information visit
-the [NERSC Home page](https://nersc.gov) and for interactive content
-visit [MyNERSC](https://my.nersc.gov).
-
-!!! tip 
-	These pages are hosted from a 
-	[git repository](https://gitlab.com/NERSC/nersc.gitlab.io) and
-	[contributions](https://gitlab.com/NERSC/nersc.gitlab.io/blob/master/CONTRIBUTING.md)
-	are welcome!
+!!!tip
+	该文档通过github仓库维护
+	[github仓库](https://github.com/SJTU-HPC/docs.hpc.sjtu.edu.cn)。
+	如果您有什么建议或者意见，欢迎提交修改
+	[contributions](contribution/contribution.md)
+	[Fork this repo](https://github.com/SJTU-HPC/docs.hpc.sjtu.edu.cn)
 	
-	[Fork this repo](https://gitlab.com/NERSC/nersc.gitlab.io/-/forks/new)
 
-## Quick links
+## 快速链接
 
- 1. [Example Jobs](jobs/examples/index.md)
- 1. [Queue Policies](jobs/policy.md)
- 1. [Running Jobs](jobs/index.md)
- 1. [Best Practices](jobs/best-practices.md)
- 1. [Jupyter](connect/jupyter.md)
- 1. [File Permissions](filesystems/unix-file-permissions.md)
- 1. [Building Software](programming/compilers/wrappers.md)
- 1. [Managing Data](data/management.md)
- 1. [Password Reset](accounts/index.md#forgotten-passwords)
+ 1. [账号申请](accounts/apply.md)
+ 2. [密码](accounts/passwords.md)
+ 3. [远程登陆](login/SSH.md)
+ 4. [远程桌面](login/HpcStudio.md)
+ 5. [作业提交](job/slurm.md)
+ 6. [软件使用](module/module.md)
+ 7. [使用GNU套件编译代码](application/GNU.md)
+ 8. [使用Intel套件编译代码](application/Intel.md)

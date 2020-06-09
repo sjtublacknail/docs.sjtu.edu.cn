@@ -9,7 +9,7 @@
           {% if config.theme.logo.icon %}
             <i class="md-icon">{{ config.theme.logo.icon }}</i>
           {% else %}
-            <img alt="NERSC logo" src="{{ config.theme.logo | url }}" width="68" height="24">
+            <img alt="NERSC logo" src="{{ config.theme.logo | url }}" width="40" height="24">
           {% endif %}
         </a>
       </div>
@@ -49,4 +49,15 @@
       {% endif %}
     </div>
   </nav>
+ 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168587256-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168587256-1');
+</script>
+  
 </header>
